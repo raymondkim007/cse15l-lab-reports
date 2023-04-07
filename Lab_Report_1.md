@@ -33,10 +33,13 @@ Using the side panel on the right, I was able to toggle between the two terminal
 
 ### Using SSH to Connect Remotely
 
-In the Git Bash Terminal, 
+In the Git Bash Terminal, we connect to the server by inputting the following command below:
 
-<pre><code> $ ssh cs15lsp23nw@ieng6.ucsd.edu
-</code></pre>
+<pre><code>$ ssh cs15lsp23nw@ieng6.ucsd.edu</code></pre>
+
+where the username `cs15lsp23nw` is my CSE15L specific username. 
+
+![Image](image6.png)
 
 ## Trying Some Commands
 
