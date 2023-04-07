@@ -15,7 +15,15 @@ Below is a picture of VS Code running on my Windows computer.
 
 We then had to create a Git Bash terminal in VS Code. 
 
-We first start by opening a terminal, then opening the command pallet with `Ctrl + Shift + P`. 
+I first started by opening a terminal, then opening the command pallete with `Ctrl + Shift + P`. I typed in and clicked on 'Select Default Profile', then selected 'Git Bash' in the options displayed. 
+
+![Image](image2.png)
+
+By then clicking on the `+` button and clicking on the 'bash' option, I was able to add a Git Bash terminal in VS Code. 
+
+![Image](image3.png)
+
+Using the side panel on the right, I was able to toggle between the two terminal types as needed. This tutorial will only use the Git Bash terminal for the Remote Access. 
 
 ## Trying Some Commands
 
