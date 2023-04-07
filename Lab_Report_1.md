@@ -35,7 +35,7 @@ Using the side panel on the right, I was able to toggle between the two terminal
 
 In the Git Bash Terminal, 
 
-<code> hello <\code>
+<pre><code> hello <\code><\pre>
 
 ## Trying Some Commands
 
