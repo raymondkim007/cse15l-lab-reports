@@ -36,7 +36,7 @@ Using the side panel on the right, I was able to toggle between the two terminal
 In the Git Bash Terminal, 
 
 <pre><code> $ ssh cs15lsp23nw@ieng6.ucsd.edu
-<\code><\pre>
+</code></pre>
 
 ## Trying Some Commands
 
