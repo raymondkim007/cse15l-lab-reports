@@ -59,5 +59,20 @@ Below are the server terminal results after runing a few different directory com
 
 ![Image](image8.png)
 
+- `ls`, short for 'list directory', shows the content files and directories contained in the current or specified directory. As no path name is given after `ls`, all contents of the current directory is shown, with the only thing shown being a directory labeled `perl5`.
+
+<pre><code>[cs15lsp23nw@ieng6-202]:~:$ ls -a</pre></code>
+
+![Image](image9.png)
+
+- In `ls -a`, the `-a` indicates a specific option - in this case, the option to show hidden files and directories within the current or specified directory. As no path is specified, all contents, both public and hidden, is shown for the current directory, including but not limited to `perl5`. 
+
+<pre><code>[cs15lsp23nw@ieng6-202]:~:$ ls -lat</pre></code>
+
+![Image](image10.png)
+
+- Here, `-lat` indicates three different options, with `-l` causing the list to show detailed information about the displayed files/directories, `-t` for displaying the files in the order of last modified, and `-a` the same as before.
+
+
 
 
