@@ -64,15 +64,13 @@ BY doing that, I was able to successfully login to the server and proceed to the
 
 Below are the server terminal results after runing a few different directory commands. 
 
-        [cs15lsp23nw@ieng6-202]:~:$ ls
+###        [cs15lsp23nw@ieng6-202]:~:$ ls
 
 ![Image](lab1_image8.png)
 
 - `ls`, short for 'list directory', shows the content files and directories contained in the current or specified directory. As no path name is given after `ls`, all contents of the current directory is shown, with the only thing shown being a directory labeled `perl5`.
 
----
-
-        [cs15lsp23nw@ieng6-202]:~:$ ls -a
+###        [cs15lsp23nw@ieng6-202]:~:$ ls -a
 
 ![Image](lab1_image9.png)
 
