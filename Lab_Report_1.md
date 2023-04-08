@@ -142,23 +142,16 @@ From our exploration, we can gather that the organization of the directories is 
 >>>>> cs15lsp23nw (my home directory)
 >>>>> 
 >>>>>> perl5
->>>>>> 
 >>>>>> hello.txt
 >>>>>
 >>>>> public
 >>>>> 
 >>>>>> README.class
->>>>>> 
 >>>>>> README.instructor
->>>>>> 
 >>>>>> bin
->>>>>> 
 >>>>>> broadcast
->>>>>> 
 >>>>>> broadcast.sh
->>>>>> 
 >>>>>> hello.txt
->>>>>> 
 >>>>>> modulefiles
 >>>>>
 >>>>> (other users' directories)
