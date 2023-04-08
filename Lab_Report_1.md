@@ -39,9 +39,11 @@ In the Git Bash Terminal, we connect to the server by inputting the following co
 
 where the username `cs15lsp23nw` is my CSE15L specific username. Sometimes, one may receive a prompt that looks as follows:
 
-<pre><code>The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+'''
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?</pre></code>
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+'''
 
 In this case, the user can just input `yes` into the terminal, then proceed to input their CSE15L password into the prompt.
 
