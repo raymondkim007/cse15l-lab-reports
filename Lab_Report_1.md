@@ -12,7 +12,7 @@ However, as I already had VS COde from CSE 11 with Professor Cao, and Git Bash f
 
 Below is a picture of VS Code running on my Windows computer. 
 
-![Image](image1.png)
+![Image](lab1_image1.png)
 
 ---
 
@@ -24,17 +24,17 @@ We then had to create a Git Bash terminal in VS Code.
 
 I first started by opening a terminal, then opening the command pallete with `Ctrl + Shift + P`. I typed in and clicked on 'Select Default Profile', then selected 'Git Bash' in the options displayed. 
 
-![Image](image2.png)
+![Image](lab1_image2.png)
 
-![Image](image3.png)
+![Image](lab1_image3.png)
 
 By then clicking on the `+` button and clicking on the 'bash' option, I was able to add a Git Bash terminal in VS Code. 
 
-![Image](image4.png)
+![Image](lab1_image4.png)
 
 Using the side panel on the right, I was able to toggle between the two terminal types as needed. This tutorial will only use the Git Bash terminal for the Remote Access. 
 
-![Image](image5.png)
+![Image](lab1_image5.png)
 
 ### Using SSH to Connect Remotely
 
@@ -52,11 +52,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 In this case, the user can just input `yes` into the terminal, then proceed to input their CSE15L password into the prompt.
 
-![Image](image6.png)
+![Image](lab1_image6.png)
 
 BY doing that, I was able to successfully login to the server and proceed to the login terminal, which looks like below.
 
-![Image](image7.png)
+![Image](lab1_image7.png)
 
 ---
 
@@ -66,7 +66,7 @@ Below are the server terminal results after runing a few different directory com
 
         [cs15lsp23nw@ieng6-202]:~:$ ls
 
-![Image](image8.png)
+![Image](lab1_image8.png)
 
 - `ls`, short for 'list directory', shows the content files and directories contained in the current or specified directory. As no path name is given after `ls`, all contents of the current directory is shown, with the only thing shown being a directory labeled `perl5`.
 
@@ -74,7 +74,7 @@ Below are the server terminal results after runing a few different directory com
 
         [cs15lsp23nw@ieng6-202]:~:$ ls -a
 
-![Image](image9.png)
+![Image](lab1_image9.png)
 
 - In `ls -a`, the `-a` indicates a specific option - in this case, the option to show hidden files and directories within the current or specified directory. As no path is specified, all contents, both public and hidden, is shown for the current directory, including but not limited to `perl5`. 
 
@@ -82,7 +82,7 @@ Below are the server terminal results after runing a few different directory com
 
         [cs15lsp23nw@ieng6-202]:~:$ ls -lat
 
-![Image](image10.png)
+![Image](lab1_image10.png)
 
 - Here, `-lat` indicates three different options, with `-l` for displaying detailed information about the listed files/directories, `-t` for displaying the files in the order of last modified, and `-a` the same as before.
 
@@ -92,7 +92,7 @@ Below are the server terminal results after runing a few different directory com
         [cs15lsp23nw@ieng6-202]:perl5:$ ls
         [cs15lsp23nw@ieng6-202]:perl5:$ ls -a
 
-![Image](image11.png)
+![Image](lab1_image11.png)
 
 - The `cd` command, short for 'change directory', indicates for the terminal to move directories to the one specified. In this case, as we specified the relative path of perl5 within the current directory, the terminal moves to perl5 as current directory. The `perl5` directory is currently empty, as listing public and hidden contents yield no result. 
 
@@ -100,7 +100,7 @@ Below are the server terminal results after runing a few different directory com
 
         [cs15lsp23nw@ieng6-202]:~:$ ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz
 
-![Image](image12.png)
+![Image](lab1_image12.png)
 
 - Here, we attempt to change directories to another user's directory. This fails, as we do not have permission to access the directories. 
 
@@ -109,13 +109,13 @@ Below are the server terminal results after runing a few different directory com
         [cs15lsp23nw@ieng6-202]:~:$ cd /home/linux/ieng6/cs15lsp23/public 
         [cs15lsp23nw@ieng6-202]:public:$ ls
 
-![Image](image13.png)
+![Image](lab1_image13.png)
 
 - We change directories to the `public` directory, located within the parent directory of our home directory. Listing all contents of `public` gives us various files and directories. We can use `cat` to print the contents as follows. 
 
         [cs15lsp23nw@ieng6-202]:public:$ cat hello.txt
 
-![Image](image14.png)
+![Image](lab1_image14.png)
 
 ---
 
@@ -123,7 +123,7 @@ Below are the server terminal results after runing a few different directory com
         [cs15lsp23nw@ieng6-202]:public:$ cd
         [cs151sp23nw@ieng6-202]:~: ls
         
-![Image](image15.png)
+![Image](lab1_image15.png)
 
 - `cp`, short for 'copy', is a command that copies the file or directory in the first given path to the second given path. Here, we are copying the `hello.txt` file in the `public` directory over to our home directory.As shown, we can see the copied `hello.txt` file once we list all items in our home directory. 
 
@@ -168,7 +168,7 @@ And indeed, we can confirm such structure by changing directory to the `cs15lsp2
         [cs15lsp23nw@ieng6-202]:~:$ cd home/linux/ieng6/cs15lsp23
         [cs15lsp23nw@ieng6-202]:cs15lsp23:$ ls
 
-![Image](image16.png)
+![Image](lab1_image16.png)
 
 ---
 
@@ -178,4 +178,4 @@ Once we are done exploring and running commands on the server, we can log out of
 
         exit
 
-![Image](image17.png)
+![Image](lab1_image17.png)
