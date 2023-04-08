@@ -53,7 +53,8 @@ In this case, the user can just input `yes` into the terminal, then proceed to i
 
 ![Image](image6.png)
 
-BY doing that, I was able to successfully login to the server and proceed to the login terminal, which looks like below.y
+BY doing that, I was able to successfully login to the server and proceed to the login terminal, which looks like below.
+
 ![Image](image7.png)
 
 ---
@@ -68,17 +69,23 @@ Below are the server terminal results after runing a few different directory com
 
 - `ls`, short for 'list directory', shows the content files and directories contained in the current or specified directory. As no path name is given after `ls`, all contents of the current directory is shown, with the only thing shown being a directory labeled `perl5`.
 
+---
+
         [cs15lsp23nw@ieng6-202]:~:$ ls -a
 
 ![Image](image9.png)
 
 - In `ls -a`, the `-a` indicates a specific option - in this case, the option to show hidden files and directories within the current or specified directory. As no path is specified, all contents, both public and hidden, is shown for the current directory, including but not limited to `perl5`. 
 
+---
+
         [cs15lsp23nw@ieng6-202]:~:$ ls -lat
 
 ![Image](image10.png)
 
 - Here, `-lat` indicates three different options, with `-l` for displaying detailed information about the listed files/directories, `-t` for displaying the files in the order of last modified, and `-a` the same as before.
+
+---
 
         [cs15lsp23nw@ieng6-202]:~:$ cd perl5
         [cs15lsp23nw@ieng6-202]:perl5:$ ls
@@ -88,11 +95,15 @@ Below are the server terminal results after runing a few different directory com
 
 - The `cd` command, short for 'change directory', indicates for the terminal to move directories to the one specified. In this case, as we specified the relative path of perl5 within the current directory, the terminal moves to perl5 as current directory. The `perl5` directory is currently empty, as listing public and hidden contents yield no result. 
 
+---
+
         [cs15lsp23nw@ieng6-202]:~:$ ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz
 
 ![Image](image12.png)
 
 - Here, we attempt to change directories to another user's directory. This fails, as we do not have permission to access the directories. 
+
+---
 
         [cs15lsp23nw@ieng6-202]:~:$ cd /home/linux/ieng6/cs15lsp23/public 
         [cs15lsp23nw@ieng6-202]:public:$ ls
@@ -101,9 +112,13 @@ Below are the server terminal results after runing a few different directory com
 
 - We change directories to the `public` directory, located within the parent directory of our home directory. Listing all contents of `public` gives us various files and directories. We can use `cat` to print the contents as follows. 
 
+---
+
         [cs15lsp23nw@ieng6-202]:public:$ cat hello.txt
 
 ![Image](image14.png)
+
+---
 
         [cs15lsp23nw@ieng6-202]:public:$ cp hello.txt ~/
         [cs15lsp23nw@ieng6-202]:public:$ cd
@@ -112,6 +127,8 @@ Below are the server terminal results after runing a few different directory com
 ![Image](image15.png)
 
 - `cp`, short for 'copy', is a command that copies the file or directory in the first given path to the second given path. Here, we are copying the `hello.txt` file in the `public` directory over to our home directory.As shown, we can see the copied `hello.txt` file once we list all items in our home directory. 
+
+---
 
 From our exploration, we can gather that the organization of the directories is something like below. 
 
@@ -154,7 +171,9 @@ And indeed, we can confirm such structure by changing directory to the `cs15lsp2
 
 ![Image](image16.png)
 
-### Wrapping Up
+---
+
+## Wrapping Up
 
 Once we are done exploring and running commands on the server, we can log out of our remote server in our terminal by running the following command. 
 
