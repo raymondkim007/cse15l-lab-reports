@@ -1,6 +1,6 @@
 # Lab Report 1 - Remote Access and FileSystem
 
-This tutorial documents my (rak007@ucsd.edu) process of logging into my course-specific account on ieng6 on Windows. 
+This tutorial documents my (rak007@ucsd.edu) process of logging into my course-specific account on `ieng6` on Windows. 
 
 ## Installing VS Code
 
@@ -37,17 +37,17 @@ In the Git Bash Terminal, we connect to the server by inputting the following co
 
 <pre><code>$ ssh cs15lsp23nw@ieng6.ucsd.edu</code></pre>
 
-where the username `cs15lsp23nw` is my CSE15L specific username. 
-
-![Image](image6.png)
-
-By then inputting my CSE15L password in the given prompt, I can successfully connect remotely to the server. Sometimes, one may receive a prompt that looks as follows:
+where the username `cs15lsp23nw` is my CSE15L specific username. Sometimes, one may receive a prompt that looks as follows:
 
 <pre><code>The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?</pre></code>
 
-In this case, the user can just input `yes` into the terminal to proceed to the login terminal, which should look like below.
+In this case, the user can just input `yes` into the terminal, then proceed to input their CSE15L password into the prompt.
+
+![Image](image6.png)
+
+BY doing that, I was able to successfully login to the server and proceed to the login terminal, which looks like below.
 
 ![Image](image7.png)
 
