@@ -43,9 +43,9 @@ where the username `cs15lsp23nw` is my CSE15L specific username.
 
 By then inputting my CSE15L password in the given prompt, I can successfully connect remotely to the server. Sometimes, one may receive a prompt that looks as follows:
 
-<pre><code> The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+<pre><code>The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? </pre></code>
+Are you sure you want to continue connecting (yes/no/[fingerprint])?</pre></code>
 
 In this case, the user can just input `yes` into the terminal to proceed to the login terminal, which should look like below.
 
