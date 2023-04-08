@@ -64,28 +64,32 @@ BY doing that, I was able to successfully login to the server and proceed to the
 
 Below are the server terminal results after runing a few different directory commands. 
 
-###        [cs15lsp23nw@ieng6-202]:~:$ ls
+### 1. ls Commands
+
+#### 1.1
+        [cs15lsp23nw@ieng6-202]:~:$ ls
 
 ![Image](lab1_image8.png)
 
 - `ls`, short for 'list directory', shows the content files and directories contained in the current or specified directory. As no path name is given after `ls`, all contents of the current directory is shown, with the only thing shown being a directory labeled `perl5`.
 
-###        [cs15lsp23nw@ieng6-202]:~:$ ls -a
+#### 1.2
+        [cs15lsp23nw@ieng6-202]:~:$ ls -a
 
 ![Image](lab1_image9.png)
 
 - In `ls -a`, the `-a` indicates a specific option - in this case, the option to show hidden files and directories within the current or specified directory. As no path is specified, all contents, both public and hidden, is shown for the current directory, including but not limited to `perl5`. 
 
----
-
+#### 1.3
         [cs15lsp23nw@ieng6-202]:~:$ ls -lat
 
 ![Image](lab1_image10.png)
 
 - Here, `-lat` indicates three different options, with `-l` for displaying detailed information about the listed files/directories, `-t` for displaying the files in the order of last modified, and `-a` the same as before.
 
----
+### 2. cd Commands
 
+#### 2.1
         [cs15lsp23nw@ieng6-202]:~:$ cd perl5
         [cs15lsp23nw@ieng6-202]:perl5:$ ls
         [cs15lsp23nw@ieng6-202]:perl5:$ ls -a
@@ -125,7 +129,7 @@ Below are the server terminal results after runing a few different directory com
 
 - `cp`, short for 'copy', is a command that copies the file or directory in the first given path to the second given path. Here, we are copying the `hello.txt` file in the `public` directory over to our home directory.As shown, we can see the copied `hello.txt` file once we list all items in our home directory. 
 
----
+### Summary
 
 From our exploration, we can gather that the organization of the directories is something like below. 
 
