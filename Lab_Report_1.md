@@ -2,6 +2,8 @@
 
 This tutorial documents my (rak007@ucsd.edu) process of logging into my course-specific account on `ieng6` on Windows. 
 
+---
+
 ## Installing VS Code
 
 As we use the terminal in VS Code for Remote Access, we were required to download VS Code. 
@@ -10,6 +12,8 @@ However, as I already had VS COde from CSE 11 with Professor Cao, and Git Bash f
 
 Below is a picture of VS Code running on my Windows computer. 
 ![Image](image1.png)
+
+---
 
 ## Remotely Connecting
 
@@ -51,6 +55,8 @@ In this case, the user can just input `yes` into the terminal, then proceed to i
 
 BY doing that, I was able to successfully login to the server and proceed to the login terminal, which looks like below.y
 ![Image](image7.png)
+
+---
 
 ## Trying Some Commands
 
