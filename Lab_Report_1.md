@@ -141,4 +141,17 @@ From our exploration, we can gather that the organization of the directories is 
 >>>>>> 
 >>>>> (other users' directories)
 
+And indeed, we can confirm such structure by changing directory to the `cs15lsp23` directory and listing its contents.
 
+        [cs15lsp23nw@ieng6-202]:~:$ cd home/linux/ieng6/cs15lsp23
+        [cs15lsp23nw@ieng6-202]:cs15lsp23:$ ls
+
+![Image](image16.png)
+
+### Wrapping Up
+
+Once we are done exploring and running commands on the server, we can log out of our remote server in our terminal by running the following command. 
+
+        exit
+
+![Image](image17.png)
