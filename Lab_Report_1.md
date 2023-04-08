@@ -131,9 +131,9 @@ Below are the server terminal results after runing a few different directory com
 
 From our exploration, we can gather that the organization of the directories is something like below. 
 
-- home
--       linux
--               ieng6
+* home
+        * linux
+                * ieng6 
 
 > home
 > > linux
