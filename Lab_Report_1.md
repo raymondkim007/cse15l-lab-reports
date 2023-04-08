@@ -97,12 +97,33 @@ Below are the server terminal results after runing a few different directory com
 
         [cs15lsp23nw@ieng6-202]:public:$ cat hello.txt
 
-![Image](iamge14.png)
+![Image](image14.png)
 
+        [cs15lsp23nw@ieng6-202]:public:$ cp hello.txt ~/
+        [cs15lsp23nw@ieng6-202]:public:$ cd
+        [cs151sp23nw@ieng6-202]:~: ls
+        
+![Image](image15.png)
 
+- `cp`, short for 'copy', is a command that copies the file or directory in the first given path to the second given path. Here, we are copying the `hello.txt` file in the `public` directory over to our home directory.As shown, we can see the copied `hello.txt` file once we list all items in our home directory. 
 
-If no path is specified, the terminal automatically goes to the home directory 
+From our exploration, we can gather that the organization of the directories is something like below. 
 
-
+> home
+> > linux
+> > > ieng6
+> > > > cs15lsp23
+> > > > > cs15lsp23nw (my home directory)
+> > > > > > perl5
+> > > > > > hello.txt
+> > > > > public
+> > > > > > README.class
+> > > > > > README.instructor
+> > > > > > bin
+> > > > > > broadcast
+> > > > > > broadcast.sh
+> > > > > > hello.txt
+> > > > > > modulefiles
+> > > > > (other users' directories)
 
 
