@@ -144,7 +144,7 @@ From our exploration, we can gather that the organization of the directories is 
 >>>>>> perl5
 >>>>>> 
 >>>>>> hello.txt
->>>>>> 
+>>>>>
 >>>>> public
 >>>>> 
 >>>>>> README.class
@@ -160,7 +160,7 @@ From our exploration, we can gather that the organization of the directories is 
 >>>>>> hello.txt
 >>>>>> 
 >>>>>> modulefiles
->>>>>> 
+>>>>>
 >>>>> (other users' directories)
 
 And indeed, we can confirm such structure by changing directory to the `cs15lsp23` directory and listing its contents.
