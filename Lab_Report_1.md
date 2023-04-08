@@ -64,7 +64,7 @@ BY doing that, I was able to successfully login to the server and proceed to the
 
 Below are the server terminal results after runing a few different directory commands. 
 
-### 1. ls Commands
+### 1. Listing Directories
 
 #### 1.1
         [cs15lsp23nw@ieng6-202]:~:$ ls
@@ -87,7 +87,7 @@ Below are the server terminal results after runing a few different directory com
 
 - Here, `-lat` indicates three different options, with `-l` for displaying detailed information about the listed files/directories, `-t` for displaying the files in the order of last modified, and `-a` the same as before.
 
-### 2. cd Commands
+### 2. Changing Directories
 
 #### 2.1
         [cs15lsp23nw@ieng6-202]:~:$ cd perl5
@@ -98,16 +98,14 @@ Below are the server terminal results after runing a few different directory com
 
 - The `cd` command, short for 'change directory', indicates for the terminal to move directories to the one specified. In this case, as we specified the relative path of perl5 within the current directory, the terminal moves to perl5 as current directory. The `perl5` directory is currently empty, as listing public and hidden contents yield no result. 
 
----
-
+#### 2.2
         [cs15lsp23nw@ieng6-202]:~:$ ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz
 
 ![Image](lab1_image12.png)
 
-- Here, we attempt to change directories to another user's directory. This fails, as we do not have permission to access the directories. 
+- Here, we attempt to read another user's directory. This fails, as we do not have permission to access the directories. 
 
----
-
+#### 2.3
         [cs15lsp23nw@ieng6-202]:~:$ cd /home/linux/ieng6/cs15lsp23/public 
         [cs15lsp23nw@ieng6-202]:public:$ ls
 
@@ -115,12 +113,12 @@ Below are the server terminal results after runing a few different directory com
 
 - We change directories to the `public` directory, located within the parent directory of our home directory. Listing all contents of `public` gives us various files and directories. We can use `cat` to print the contents as follows. 
 
+### 3. Printing Items
         [cs15lsp23nw@ieng6-202]:public:$ cat hello.txt
 
 ![Image](lab1_image14.png)
 
----
-
+### 4. Copying Items
         [cs15lsp23nw@ieng6-202]:public:$ cp hello.txt ~/
         [cs15lsp23nw@ieng6-202]:public:$ cd
         [cs151sp23nw@ieng6-202]:~: ls
