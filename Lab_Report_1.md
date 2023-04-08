@@ -112,8 +112,6 @@ Below are the server terminal results after runing a few different directory com
 
 - We change directories to the `public` directory, located within the parent directory of our home directory. Listing all contents of `public` gives us various files and directories. We can use `cat` to print the contents as follows. 
 
----
-
         [cs15lsp23nw@ieng6-202]:public:$ cat hello.txt
 
 ![Image](image14.png)
