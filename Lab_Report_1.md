@@ -125,7 +125,7 @@ Below are the server terminal results after runing a few different directory com
         
 ![Image](lab1_image15.png)
 
-- `cp`, short for 'copy', is a command that copies the file or directory in the first given path to the second given path. Here, we are copying the `hello.txt` file in the `public` directory over to our home directory.As shown, we can see the copied `hello.txt` file once we list all items in our home directory. 
+- `cp`, short for 'copy', is a command that copies the file or directory in the first given path to the second given path. Here, we are copying the `hello.txt` file in the `public` directory over to our home directory. As shown above, we can see the copied `hello.txt` file in our home directory using `ls`.
 
 ### Summary
 
