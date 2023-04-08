@@ -53,6 +53,11 @@ BY doing that, I was able to successfully login to the server and proceed to the
 
 ## Trying Some Commands
 
+Below are the server terminal results after runing a few different directory commands. 
+
+<pre><code>[cs15lsp23nw@ieng6-202]:~:$ ls</pre></code>
+
+![Image](image8.png)
 
 
 
