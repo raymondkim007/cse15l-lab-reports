@@ -133,34 +133,20 @@ From our exploration, we can gather that the organization of the directories is 
 
 * home
     * linux
-        * ieng6 
-
-> home
-> > linux
-> > > ieng6
-> > > > cs15lsp23
-> > > > > cs15lsp23nw (my home directory)
-> > > > > > perl5
-> > > > > > 
-> > > > > > hello.txt
-> > > > > 
-> > > > > public
-> > > > > 
-> > > > > > README.class
-> > > > > > 
-> > > > > > README.instructor
-> > > > > > 
-> > > > > > bin
-> > > > > > 
-> > > > > > broadcast
-> > > > > > 
-> > > > > > broadcast.sh
-> > > > > > 
-> > > > > > hello.txt
-> > > > > > 
-> > > > > > modulefiles
-> > > > > 
-> > > > > (other users' directories)
+        * ieng6
+            * cs15lsp23
+                * cs15lsp23nw (my home directory)
+                    * perl5
+                    * hello.txt
+                * public
+                    * README.class
+                    * README.instructor
+                    * bin
+                    * broadcast
+                    * broadcast.sh
+                    * hello.txt
+                    * modulefiles
+                * (other users' directories)
  
 And indeed, we can confirm such structure by changing directory to the `cs15lsp23` directory and listing its contents.
 
