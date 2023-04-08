@@ -132,20 +132,15 @@ Below are the server terminal results after runing a few different directory com
 From our exploration, we can gather that the organization of the directories is something like below. 
 
 > home
-> 
 > > linux
->
 > > > ieng6
->
 > > > > cs15lsp23
->
 > > > > > cs15lsp23nw (my home directory)
->
 > > > > > > perl5
 > > > > > > hello.txt
->
+> > > > > 
 > > > > > public
->
+> > > > > 
 > > > > > > README.class
 > > > > > > README.instructor
 > > > > > > bin
@@ -153,9 +148,9 @@ From our exploration, we can gather that the organization of the directories is 
 > > > > > > broadcast.sh
 > > > > > > hello.txt
 > > > > > > modulefiles
->
+> > > > > 
 > > > > > (other users' directories)
-
+ 
 And indeed, we can confirm such structure by changing directory to the `cs15lsp23` directory and listing its contents.
 
         [cs15lsp23nw@ieng6-202]:~:$ cd home/linux/ieng6/cs15lsp23
