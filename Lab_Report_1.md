@@ -56,7 +56,7 @@ The user can proceed to the [Password Change Tool for Course-Specific Student Ac
 
 ![Image](lab1_image21.png)
 
-If a password is not chosen, a third option will be displayed to create a new password in the page shown below. The displayed image does not reflect this, as a password already exists for my CSE15L account. 
+If a password doesn't exist yet, a third option will be displayed to create a new password in the page shown below. The displayed image does not reflect this, as a password already exists for my CSE15L account. 
 
 ![Image](lab1_image22.png)
 
