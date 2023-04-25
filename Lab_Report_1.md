@@ -6,7 +6,7 @@ This tutorial documents my (rak007@ucsd.edu) process of logging into my course-s
 
 ## Installing VS Code
 
-As we use the terminal in VS Code for Remote Access, we were required to download VS Code. 
+As we use the terminal in VS Code for Remote Access, we were required to download [VS Code](https://code.visualstudio.com). 
 If the user is using Windows, the user also had to download Git Bash, in order to use Git Bash in terminal. 
 However, as I already had VS COde from CSE 11 with Professor Cao, and Git Bash from personal projects, I did not have to separately download either installer.
 
@@ -38,6 +38,32 @@ Using the side panel on the right, I was able to toggle between the two terminal
 
 ### Using SSH to Connect Remotely
 
+#### Creating a CSE15L Account
+
+In order to connect to the server, we need our login info for our CSE15L specific account. 
+The details of such account can be found using the [Account Lookup Service](https://sdacs.ucsd.edu/~icc/index.php) from UCSD.
+
+By inputting the student UCSD username and PID as shown below, the user will be taken to the Account Lookup Results page, where the CSE15L account will be displayed under the "Additional Accounts" section. 
+
+![Image](lab1_image18.png)
+![Image](lab1_image19.png)
+
+Clicking on the CSE15L account, then the [Global Password Change Tool](https://sdacs.ucsd.edu/~icc/password.php) leads to a password reset page that looks like below. 
+
+![Image](lab1_image20.png)
+
+The user can proceed to the [Password Change Tool for Course-Specific Student Accounts](https://password.ucsd.edu), then input their UCSD username. 
+
+![Image](lab1_image21.png)
+
+If a password is not chosen, a third option will be displayed to create a new password in the page shown below. The displayed image does not reflect this, as a password already exists for my CSE15L account. 
+
+![Image](lab1_image22.png)
+
+The user can then set up their password for their CSE15L account. This info will be used in the next section to log in to the remote server.
+
+#### Using SSH
+
 In the Git Bash Terminal, we connect to the server by inputting the following command below:
 
         $ ssh cs15lsp23nw@ieng6.ucsd.edu
@@ -54,7 +80,7 @@ In this case, the user can just input `yes` into the terminal, then proceed to i
 
 ![Image](lab1_image6.png)
 
-BY doing that, I was able to successfully login to the server and proceed to the login terminal, which looks like below.
+By doing that, I was able to successfully login to the server and proceed to the login terminal, which looks like below.
 
 ![Image](lab1_image7.png)
 
