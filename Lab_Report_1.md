@@ -8,7 +8,7 @@ This tutorial documents my (rak007@ucsd.edu) process of logging into my course-s
 
 As we use the terminal in VS Code for Remote Access, we were required to download [VS Code](https://code.visualstudio.com). 
 If the user is using Windows, the user also had to download [Git Bash](https://gitforwindows.org/), in order to use Git Bash in terminal. 
-However, as I already had VS COde from CSE 11 with Professor Cao, and Git Bash from personal projects, I did not have to separately download either installer.
+However, as I already had VS Code from CSE 11 with Professor Cao, and Git Bash from personal projects, I did not have to separately download either installer.
 
 Below is a picture of VS Code running on my Windows computer. 
 
