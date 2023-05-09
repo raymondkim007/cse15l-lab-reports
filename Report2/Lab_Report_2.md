@@ -42,6 +42,23 @@ The code for StringServer.java is shown below.
             Server.start(port, new Handler());
         }
     }
+
+The string is saved in one variable `cur_string` with each individual string message divided via the newline character `\n`. 
+The user can add new strings using the `/add-message` query, and use the root query `/` to display `cur_string`.
+Examples of this are shown below. 
+
+We add the string `"Hello"` to the running string using the `/add-message` query as an argument.
+![Image](lab1_image1.png)
+We can verify the string was added by calling the root query. This shows that the value of `cur_string` is properly updated.
+![Image](lab1_image2.png)
+
+We can further verify that multiple strings can be added by adding another string.
+Here, we add the string `"How are you"` to the `/add-message` query by passing it as an argument. 
+![Image](lab1_image3.png)
+And once again, by checking the root query, we can see the value of `cur_string` being properly updated. 
+
+For both root queries of `/`, no value is updated as the code only calls for the return, and thus the display, of the value of `cur_string`.
+
 ---
 
 ## Remotely Connecting
