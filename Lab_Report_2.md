@@ -4,7 +4,7 @@
 
 ## Part 1 - StringServer
 
-We will first create a web server that tracks a string that we can add to and edit.
+We will first create a web server `StringServer.java` that tracks a string that we can add to and edit.
 The web server will run based on the given Java file `Server.java`, borrowed from the given Week 2 GitHub repository [wavelet](https://github.com/ucsd-cse15l-f22/wavelet).
 
 The code for StringServer.java is shown below. 
