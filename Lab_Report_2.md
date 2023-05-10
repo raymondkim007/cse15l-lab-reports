@@ -142,6 +142,6 @@ And we can check that this implementation works by running the JUnit tests again
 
 ![Image](Report2/lab2_image7.png)
 
-## Part3 - Something New
+## Part 3 - Something New
 
 During week 2 and week 3, I learned many things I did not know before. I learned how to use the command line to navigate and edit directories, as well as terminologies and methods of checking and fixing code, such as failures, symptoms, and bugs. 
