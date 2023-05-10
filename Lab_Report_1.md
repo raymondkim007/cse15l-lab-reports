@@ -12,7 +12,7 @@ However, as I already had VS Code from CSE 11 with Professor Cao, and Git Bash f
 
 Below is a picture of VS Code running on my Windows computer. 
 
-![Image](lab1_image1.png)
+![Image](/Report1/lab1_image1.png)
 
 ---
 
