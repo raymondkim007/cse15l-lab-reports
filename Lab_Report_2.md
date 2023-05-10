@@ -77,9 +77,9 @@ The bugs are initially hidden when running the originally written test, which is
     public class ArrayTests {
         @Test 
         public void testReverseInPlace() {
-        int[] input1 = { 3 };
-        ArrayExamples.reverseInPlace(input1);
-        assertArrayEquals(new int[]{ 3 }, input1);
+            int[] input1 = { 3 };
+            ArrayExamples.reverseInPlace(input1);
+            assertArrayEquals(new int[]{ 3 }, input1);
         }
     }
 
@@ -92,17 +92,17 @@ However, writing a new test to test ArrayExamples.reverseInPlace() more thorough
     public class ArrayTests {
         @Test 
         public void testReverseInPlace() {
-        int[] input1 = { 3 };
-        ArrayExamples.reverseInPlace(input1);
-        assertArrayEquals(new int[]{ 3 }, input1);
+            int[] input1 = { 3 };
+            ArrayExamples.reverseInPlace(input1);
+            assertArrayEquals(new int[]{ 3 }, input1);
         }
-
-      @Test
-      public void testReverseInPlace2() {
-        int[] input2 = {1, 2, 3};
-        ArrayExamples.reverseInPlace(input2);
-        assertArrayEquals(new int[]{3, 2, 1}, input2);
-      }
+        
+        @Test
+        public void testReverseInPlace2() {
+            int[] input2 = {1, 2, 3};
+            ArrayExamples.reverseInPlace(input2);
+            assertArrayEquals(new int[]{3, 2, 1}, input2);
+        }
     }
 
 ![Image](Report2/lab2_image6.png)
@@ -112,12 +112,12 @@ Observing the failure description `arrays first differed at element [2]; expecte
 We can find why this happened by breaking down the source code for ArrayExamples.reverseInPlace(), shown below. 
 
     public class ArrayExamples {
-      // Changes the input array to be in reversed order
-      static void reverseInPlace(int[] arr) {
-        for(int i = 0; i < arr.length; i += 1) {
-          arr[i] = arr[arr.length - i - 1];
+        // Changes the input array to be in reversed order
+        static void reverseInPlace(int[] arr) {
+            for(int i = 0; i < arr.length; i += 1) {
+                arr[i] = arr[arr.length - i - 1];
+            }
         }
-      }
     }
 
 We see that the method iterates through the given array `arr` and sets each value to the `arr` value of the mirrored index. 
@@ -127,17 +127,16 @@ Going with the example given in our second test, `{1, 2, 3}` becomes `{3, 2, 3}`
 We can fix this by using another array as an intermediary, storing the reversed values separately from the initial `arr` as to not change or lose the initial data.
 
     public class ArrayExamples {
-
-      // Changes the input array to be in reversed order
-      static void reverseInPlace(int[] arr) {
-        int[] arr2 = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-          arr2[i] = arr[i];
+        // Changes the input array to be in reversed order
+        static void reverseInPlace(int[] arr) {
+            int[] arr2 = new int[arr.length];
+            for (int i = 0; i < arr.length; i++) {
+                arr2[i] = arr[i];
+            }
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = arr2[arr.length - i - 1];
+            }
         }
-        for (int i = 0; i < arr.length; i++) {
-          arr[i] = arr2[arr.length - i - 1];
-        }
-      }
     }
         
 And we can check that this implementation works by running the JUnit tests again.
