@@ -70,7 +70,7 @@ For both root queries of `/`, no value is updated as the code only calls for the
 
 ## Part 2 - Bugs
 
-The file of `ArrayExamples` has a few bugs in the code. One of the bugs is the `reverseInPlace` method, where the code for the method is shown below. 
+The file of `ArrayExamples` has a few bugs in the code. One of the bugs is located in the `reverseInPlace` method, where the code for the method is shown below. 
 
 The bugs are initially hidden when running the originally written test, which is shown below. 
 
