@@ -47,7 +47,7 @@ The string is saved in one variable `cur_string` with each individual string mes
 The user can add new strings using the `/add-message` query, and use the root query `/` to display `cur_string`.
 Examples of this are shown below. 
 
-We add the string `"Hello"` to the running string using the `/add-message` query, b7 passing `"Hello"` as an argument.
+We add the string `"Hello"` to the running string using the `/add-message` query, by passing `"Hello"` as an argument.
 
 ![Image](/Report2/lab2_image1.png)
 
