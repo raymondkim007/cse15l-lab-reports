@@ -6,7 +6,7 @@ All command line options for grep were first initially discovered with the [Geek
 
 ## Grep `-i`
 
-The `-i` command for `grep` is arguably a very useful command, as it ignores upper and lower cases when matching the text file lines to the given pattern. Let us demonstrate this below. 
+The `-i` command for `grep` is an extremely useful command, as it ignores upper and lower cases when matching the text file lines to the given pattern. Let us demonstrate this below. 
 
 By using the default `grep` without the `-i` option when searching for `"base pair"` in all text files for `technical/biomed`, we get returned with 226 lines. 
 
