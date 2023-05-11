@@ -145,11 +145,11 @@ Let us try with the same example of `"base pair"`. However, as grepping `-v` for
       
 As shown, the text file contians 87 lines containing the pattern `"base pair"`. 
 
-  raymo@Raymond_Kim MINGW64 ~/Documents/GitHub/docsearch (main)
-  $ grep -vi "base pair" technical/biomed/1471-2105-3-2.txt > biomed_basepair_spec_n.txt
+    raymo@Raymond_Kim MINGW64 ~/Documents/GitHub/docsearch (main)
+    $ grep -vi "base pair" technical/biomed/1471-2105-3-2.txt > biomed_basepair_spec_n.txt
 
-  raymo@Raymond_Kim MINGW64 ~/Documents/GitHub/docsearch (main)
-  $ wc biomed_basepair_spec_n.txt
+    raymo@Raymond_Kim MINGW64 ~/Documents/GitHub/docsearch (main)
+    $ wc biomed_basepair_spec_n.txt
     2272  16619 133089 biomed_basepair_spec_n.txt
   
 And the file contains 2272 lines that don't contain the pattern `"base pair"`. 
