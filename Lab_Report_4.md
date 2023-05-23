@@ -51,7 +51,7 @@ Keys Pressed:
 - `<Ctrl + R>[javac]<Enter>`
 - `<Ctrl + R>[java ]<Enter>`
 
-The commands run included changing directories to `lab7`, compiling all Java files using the JUnit library dependencies stored in `lab7/lib`, then executing the class tester file `ListExamplesTests`. The terminal outpput shows one of the two JUnit tests in `ListExamplesTests.java` to fail. 
+The commands run included changing directories to `lab7`, compiling all Java files using the JUnit library dependencies stored in `lab7/lib`, then executing the class tester file `ListExamplesTests`. The terminal output shows one of the two JUnit tests in `ListExamplesTests.java` to fail. 
 
 The commands for the last two steps of compiling and executing - `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` respectively - had already been used before from a previous test run, but was buried within the history. Using `<Ctrl + R>` allows direct access to the bash history to search previous commands. Using the queries `[javac]` and `[java ]` (with a space) allowed me to access the correct commands easily and efficiently without typing entire commands or classpaths. 
 
