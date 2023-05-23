@@ -78,7 +78,7 @@ Keys Pressed:
 
 The commands run is nearly identical to Step 6 - compiling all Java files using the JUnit library dependencies stored in `lab7/lib`, then executing the class tester file `ListExamplesTests`. The terminal output now shows that both JUnit tests passed. However, this time instead of querying the bash history with `<Ctrl + R>`, I used the `<up>` arrow to chronologically search the bash history. I had used the same commands only 3 command line inputs before, and so using the `<up>` arrow was faster. 
 
-### Step 9. Commit and Pushing CHanges
+### Step 9. Commit and Pushing Changes
 
 ![Image](/Report4/lab4_image6.png)
 
