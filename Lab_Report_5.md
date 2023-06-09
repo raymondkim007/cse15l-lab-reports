@@ -98,11 +98,11 @@ Author: TA_killmenow (_1 hour ago_)
 > 
 > `javac -cp ".;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar" *.java`
 > 
-> `javac -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java`
+> `java -cp ".;../lib/junit-4.13.2.jar;../lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples > grade-results.txt`
 > 
 > to these two lines:
-> 
-> `java -cp ".;../lib/junit-4.13.2.jar;../lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples > grade-results.txt`
+> asdf
+> `javac -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java`
 > 
 > `java -cp .:../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestListExamples > grade-results.txt`.
 
