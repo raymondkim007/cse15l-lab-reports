@@ -62,6 +62,7 @@ Author: Raymond Kim (_3 hours ago_)
 ![Image](/Report5/lab5_image3.png)
 ![Image](/Report5/lab5_image4.png)
 ![Image](/Report5/lab5_image5.png)
+![Image](/Report5/lab5_image6.png)
 
 ---
 Author: AwesomeTA1 (_3 hours ago_)
@@ -117,6 +118,8 @@ Author: TA_idontcarejustdoit (_27 minutes ago_)
 ---
 Author: Raymond Kim (_10 minutes ago_)
 > The changes worked. Thank you!
+
+![Image](/Report5/lab5_image7.png)
 ---
 
 ### Further Information
