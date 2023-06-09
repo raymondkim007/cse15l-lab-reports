@@ -115,18 +115,8 @@ Author: TA_idontcarejustdoit (_27 minutes ago_)
 > Generally using vim is simpler, and you can practice GitHub pushing for review!
 
 ---
-Author: Raymond Kim (_25 minutes ago_)
-> Will GitHub pushing be in Skill Demo 2?
-
---- 
-Author: TA_godwhyhaveyouforsakenme (_19 minutes ago_)
-> The tasks for Skill Demo 2 are already posted on EdStem [here](https://edstem.org/us/courses/38707/discussion/3178565).
-> 
-> Did the changes work for your autograder?
-
----
 Author: Raymond Kim (_10 minutes ago_)
-> Yes, it worked. Thank you!
+> The changes worked. Thank you!
 ---
 
 ### Further Information
